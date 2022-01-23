@@ -1,0 +1,22 @@
+/* Image Grid */
+.portfolio {
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+  
+  .image img {
+    width: 100%;
+  }
+
+  h1{
+   background-color:  #cec9aa;
+  }
+
+  footer {
+    display: flex;
+    width: 100%;
+    background-color: #cec9aa;
+    height: fit-content;
+}

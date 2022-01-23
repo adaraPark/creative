@@ -1,0 +1,25 @@
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  img {
+    max-width: 100%
+  }
+  .image {
+    flex-basis: 50%
+  }
+  .text {
+    padding-left: 20px;
+  }
+
+  h1{
+      background-color: #cec9aa;
+  }
+
+  footer {
+    height: fit-content;
+    justify-content: center;
+}

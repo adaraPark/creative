@@ -1,0 +1,49 @@
+
+  *{
+      display: flex;
+  }
+
+  .navbar{
+      display:flex;
+      width: 100%;
+  }
+  
+  .image img {
+    width: 100%;
+    z-index: 0;
+  }
+
+  .text {
+      font-size: 30px;
+      padding-left: 20px;
+      
+  }
+  h1, h2 {
+      font-size: 40px;
+      background-color:  #cec9aa;
+      align-content: center;
+  }
+
+  footer {
+      background-color: #cec9aa;
+      height: 200px;
+      justify-content: center;
+  }
+
+  
+  /* Mobile Styles */
+  @media only screen and (max-width: 400px) {
+    .navbar-expand{
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+ 
+}
+
+
+  /*Desktop Styles */
+ @media only screen and (min-width: 961px) {
+
+   }
