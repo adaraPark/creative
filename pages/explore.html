@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/exploreStyle.css" />
+  <title>AthleteUp</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">AthleteUp</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/coach.html">Become A Coach</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Explore<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="jumbotron jumbotron-fluid navbar-dark bg-dark" style="margin: 40px; color: white; text-align: center; height: 350px;">
+        <div class="container">
+          <h1 class="display-4">Coaches Explore Page</h1>
+          <p class="lead">Find the Perfect coach for you!</p>
+
+          <form class="lead search form-inline justify-content-center align-self-center"> <!-- TODO search bar doesnt display undless height is not set unsure why-->
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="card-deck row"> <!-- eventually make this ngfor of all classes not hardcoded-->
+        <div class="card col-sm-6" style="width: 18rem;">
+          <img class="card-img-top" src="/images/screenshots/rockclimbing.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Rockclimbing</h5>
+            <p class="card-text">I have been a Rockclimbing Coach for the past 20 years! Id love to help athletes reach their full potential!</p>
+            <a href="#" class="btn btn-primary">See Info</a>
+          </div>
+        </div>
+  
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="/images/screenshots/runner.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Track and Field</h5>
+            <p class="card-text">I am on the Nevade State University Track and Field Team. I run the 400m and long jump! Id love to help you imporve you technique
+              and reach you goals in track.
+            </p>
+            <a href="#" class="btn btn-primary">See Info</a>
+          </div>
+        </div>
+  
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="/images/screenshots/football-american-football-canadian-university-canadian-football-163398.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Football</h5>
+            <p class="card-text">My name is Jared Arnolds, I am on the Utah State football team.</p>
+            <a href="#" class="btn btn-primary">See Info</a>
+          </div>
+        </div>
+      </div>
+
+    <nav class="footer navbar sticky-bottom navbar-dark bg-dark">
+      <div style="color: white;">Visit The following Pages to learn more about us:</div>
+        <a class="nav-link" href="/pages/about.html">About</a>
+        <a class="nav-link" href="/pages/termsOfService.html">Terms Of Service<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="https://github.com/adaraPark/creative">Github Link: https://github.com/adaraPark/creative</a></p>
+        <a class="navbar-brand" href="#">AthleteUp</a>
+    </nav>
+      
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>

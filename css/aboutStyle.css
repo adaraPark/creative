@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
   }
   img {
     max-width: 100%
@@ -13,13 +13,15 @@
   }
   .text {
     padding-left: 20px;
+    padding-right: 20px;
   }
 
-  h1{
-      background-color: #cec9aa;
-  }
+.aboutMeDef {
+  padding-left: 20px;
+  font-size: 30px;
+}
 
-  footer {
-    height: fit-content;
-    justify-content: center;
+.steps {
+  padding-right: 20px;
+  font-size: 30px;
 }
