@@ -6,10 +6,10 @@
     padding-bottom: 40px;
   }
   img {
-    max-width: 100%
+    max-width: 100%;
   }
   .image {
-    flex-basis: 50%
+    flex-basis: 50%;
   }
   .text {
     padding-left: 20px;
