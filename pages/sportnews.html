@@ -3,8 +3,8 @@
 
 <head>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/aboutStyle.css" />
-  <title>AthleteUp About</title>
+  <link rel="stylesheet" href="/css/newsStyle.css" />
+  <title>AthleteUp News</title>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
               <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="/pages/about.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/pages/coach.html">Become A Coach</a>
@@ -28,28 +28,28 @@
               <a class="nav-link" href="/pages/explore.html">Explore</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/pages/sportnews.html">Sports News</a>
+                <a class="nav-link" href="#">Sports News<span class="sr-only">(current)</span></a>
             </li>
           </ul>
         </div>
       </nav>
-    <div class="container">
-      <div class="image">
-        <img src="/images/screenshots/pexels-photo-9944009.jpg" style="float: left;">
+
+      <div class="jumbotron jumbotron-fluid navbar-dark bg-dark" style="margin: 40px; color: white; text-align: center; height: 350px;">
+        <div class="container">
+          <h1 class="display-4">Find The Soccer Leagues in Each Country</h1><br>
+
+          <form class="lead search form-inline justify-content-center align-self-center">
+            <input placeholder="Enter a Country" id="countryInput" type="text"></input>
+            <button class="btn btn-outline-success my-2 my-sm-0" id="countrySubmit" type="submit">Search</button>
+          </form>
+        </div>
       </div>
-      <div class="text"> 
-        <h2>About AthleteUp</h2> 
-        <div class="aboutMeDef"  style="float: right;"><p>
-          We are an organization determined to help athletes reach their dreams, by providing a way to <br> access collegiate athletes, 
-          professional athletes, and coaches from around the world. <br><br>
-          Aspiring athletes can come and learn from the best in their field in 1-on-1 training sessions <br> online. No matter the distance between, 
-          you can recieve training and advice from the best!
-        </p></div>
+
+      <div style="margin: 50px">
+        <div class="soccer" id="soccerLeague" style="margin: auto;"></div>
       </div>
-    </div>
-    <hr>
     
-    <nav class="footer navbar sticky-bottom navbar-dark bg-dark">
+    <nav class="footer navbar fixed-bottom navbar-dark bg-dark">
       <div style="color: white;">Visit The following Pages to learn more about us:</div>
         <a class="nav-link" href="/pages/about.html">About</a>
         <a class="nav-link" href="/pages/termsOfService.html">Terms Of Service<span class="sr-only">(current)</span></a>
@@ -60,6 +60,8 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <script text="type/javascript" src="/js/newsScript.js"></script>
 </body>
 
 </html>
